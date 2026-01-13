@@ -1,0 +1,323 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #000;;
+}
+
+.landing-page
+{
+    padding: 459px 40px;
+}
+.untitle
+{
+    color: beige;
+    text-decoration: none;
+    position: absolute;
+}
+.scroll
+{
+    color: beige;
+    text-decoration: none;
+    position: absolute;
+    bottom: 160px;
+}
+section.top-page
+{
+    background: url('image.png');
+}
+
+header.header img
+{
+    width: 150px
+}
+
+section.top-page
+{
+    background: url('image.png');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+/*menue de nav*/
+nav.nav
+{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 10 px;
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
+}
+
+nav.nav li
+{
+    text-decoration: none;
+    color: beige;
+}
+
+/*section jeux*/
+
+.item-jeux
+{
+    background-color:black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.item 
+{
+flex: 1px;
+flex-direction: column;
+align-items: flex-start;
+text-align: center;
+border: 2px;
+}
+.item p
+{
+    margin-top: 8px;
+    color:darkslateblue;
+}
+
+.item img
+{
+    align-self: center;
+}
+.icon
+{
+    width: 100px;
+    height: auto;
+}
+
+.img_wrapper
+{
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_lol
+{   
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*section Histoire*/
+
+.section_title
+{
+    font-size: 50px;
+    text-align: center;
+    color: beige;
+}
+.Resumé_du_jeux
+{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: url(gpt.png) ;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    min-width: 350px;;
+}
+.texte
+{
+    color:dimgray;
+    text-align:center;
+    font-size: 19px;
+    margin-top: 150px
+}
+
+/*pied-de-page*/
+footer
+{
+    border-top: 5px solid beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    color: beige;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    position: relative;
+    z-index: 10;
+}
+.footer_txt2
+{
+    position: relative;
+    z-index: 10px;
+}
+.footer_txt2 a
+{
+    pointer-events: auto;
+}
+.footer_txt2 a:hover
+{
+    color: violet;
+    text-decoration: none;
+}
+
+/*Page qui sommes nous*/
+.body2
+{
+    background-color: black;
+}
+
+.team-section
+{
+    text-align: center;
+    margin-bottom: 40px;
+    color: beige;
+}
+
+.title3
+{
+    font-size: 56px;
+}
+
+.nav2
+{
+    text-align: center;
+    margin-top: 10px;
+    color: beige;
+    text-decoration: none;
+}
+
+.team-member
+{
+    color: beige;
+}
+
+.membre 
+{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.Romain
+{
+    text-align: center;
+}
+
+.Charles
+{
+    text-align: center;
+}
+
+.Sophie
+{
+    text-align: center;
+}
+
+.Noam
+{
+    text-align: center;
+}
+
+.Louis
+{
+    text-align: center;
+}
+
+/*Développement*/
+
+.body3
+{
+    background-color: black;
+}
+
+.title4
+{
+    font-size: 56px;
+    text-align: center;
+    color: beige;
+}
+
+.firstenigm
+{
+    color: beige;
+    text-align: center;
+    margin-top: 40px;
+}
+.txtlol2
+{
+    color: beige;
+    text-align: center;
+    margin-top: 40px;
+}
+.title5
+{
+    font-size: 36px;
+    color: beige;
+    text-decoration: underline;
+    text-align: center;
+    margin: 110px;
+}
+
+.enigmphrase
+{
+    border-top: 5px solid green;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    margin-top: 40px;
+}
+.enigme
+{
+    margin: 60px;
+    max-width: 80%;
+}
+
+.title6
+{
+    font-size: 36px;
+    color: beige;
+    text-decoration: underline;
+    text-align: center;
+    margin: 110px;
+}
+
+.lobyphrase
+{
+    border-top: 5px solid grey;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.lobby-img
+{
+    margin: 60px;
+    max-width: 80%;
+}
+
+.title7
+{
+    font-size: 36px;
+    color: beige;
+    text-decoration: underline;
+    text-align: center;
+    margin: 110px;
+}
+
+.mapphrase
+{
+    border-top: 5px solid orange;
+    font-size: 20px;
+    color: purple;
+    text-align: center;
+    margin-top: 40px;
+}
