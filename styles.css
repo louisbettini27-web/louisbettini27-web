@@ -1,4 +1,5 @@
 body
+
 {
     margin: 0;
     padding: 0;
@@ -41,20 +42,48 @@ section.top-page
 }
 
 /*menue de nav*/
-nav.nav
+nav
 {
+    width: 95%;
+    color: burlywood;
     display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 10 px;
-    margin-inline-start: 30px;
+    margin-inline-start: 10px;
     margin-inline-end: 30px;
 }
 
-nav.nav li
+ul
+{
+    list-style: none;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+nav ul
+{
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+.untitle
+{
+    color: burlywood;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.developement
+{
+    margin-left: 90px;
+    color:burlywood;
+    text-decoration: none;
+}
+
+li
 {
     text-decoration: none;
-    color: beige;
+    color: burlywood;
 }
 
 /*section jeux*/
@@ -114,17 +143,17 @@ border: 2px;
 {
     font-size: 50px;
     text-align: center;
-    color: beige;
+    color: dimgray;
 }
 .Resumé_du_jeux
 {
-    padding-top: 80px;
+    padding-top: 150px;
     padding-bottom: 80px;
-    background: url(gpt.png) ;
+    background: url(cadre.png);
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
-    min-width: 350px;;
+    min-height: 109vh;
+    min-width: 350px;
 }
 .texte
 {
@@ -186,11 +215,19 @@ footer
 {
     font-size: 56px;
 }
+.ul2
+{
+    list-style: none;
+    width: 100%;
+}
 
 .nav2
 {
     text-align: center;
     margin-top: 10px;
+}
+.maisonhome
+{
     color: beige;
     text-decoration: none;
 }
@@ -206,30 +243,6 @@ footer
     text-decoration: underline;
 }
 
-.Romain
-{
-    text-align: center;
-}
-
-.Charles
-{
-    text-align: center;
-}
-
-.Sophie
-{
-    text-align: center;
-}
-
-.Noam
-{
-    text-align: center;
-}
-
-.Louis
-{
-    text-align: center;
-}
 
 /*Développement*/
 
@@ -319,5 +332,56 @@ footer
     font-size: 20px;
     color: purple;
     text-align: center;
+    margin-top: 40px;
+}
+
+.map
+{
+    margin: 60px;
+    max-width: 80%;
+}
+
+.title8
+{
+    font-size: 36px;
+    color: beige;
+    text-decoration: underline;
+    text-align: center;
+    margin: 110px;
+}
+.iaphrase
+{
+    border-top: 5px solid yellow;
+    font-size: 20px;
+    color: cyan;
+    text-align: center;
+    margin-top: 40px;
+}
+.ia-img
+{
+    margin: 60px;
+    max-width: 80%;
+}
+
+.vision
+{
+    font-size: 36px;
+    color: beige;
+    text-decoration: underline;
+    text-align: center;
+    margin: 110px;
+}
+.soutenance
+{
+    color: beige;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.cdsf
+{
+    color: beige;
+    text-decoration: none;
+    font-size: 20px;
     margin-top: 40px;
 }
